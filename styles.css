@@ -1,0 +1,27 @@
+@media (max-width: 767.98px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px; /* Hide the sidebar by default */
+        z-index: 100; /* Ensure sidebar is above content */
+        overflow-x: hidden;
+        transition: 0.5s;
+        width: 250px;
+        padding-top: 56px; /* Match the height of the navbar */
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    .sidebar .nav-link {
+        padding-left: 40px; /* Add space for the sidebar icon */
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}

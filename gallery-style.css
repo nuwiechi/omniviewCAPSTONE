@@ -1,0 +1,141 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+}
+/* top header */
+.container-fluid.text-white.text-center {
+    height: 3vh;
+    background-color: #0e0e73;
+    box-shadow: 0 0 20px rgb(61, 67, 143);
+}  
+header{
+    height: 100vh;
+}
+.nav-bar-page{
+    display: flex;
+}
+#btn2{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(3, 3, 167);
+    border: none;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#btn2 a{
+    text-decoration: none;
+    color: white;
+}
+#btn2 a:hover{
+  color:rgb(165, 204, 241);
+  text-shadow: 2px 1px 5px blue;
+}
+/* icon-website name */
+.navbar-brand img{
+    width: 10vw;
+    margin-left: 10vw;
+}
+/* ul  li */
+div#navbarSupportedContent {
+    letter-spacing: 3px;
+}
+div#navbarSupportedContent ul li:hover{
+    background-color: rgb(222, 224, 240);
+    border-radius: 5px;
+}
+
+/* end of top header */
+
+section#services {
+    text-align: justify;
+}
+.row.px-2 {
+    margin-top: 10vh;
+}
+ h1{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+img.img-fluid1 {
+    width: 32vh;
+}
+img.img-fluid.img-thumbnail.rounded-pill {
+    margin-top: 4vh;
+}
+img.img-fluid.img-thumbnail {
+    margin-top: 2vh;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 4vh;
+}
+h2{
+    font-family: sans-serif;
+}
+.pt-5{
+    padding-top: 8rem;
+}
+p{
+    font-family: sans-serif;
+}
+/* Footer */
+section.p-5.my-5.text-white.container-fluid {
+    text-align: center;
+    background-color: #111171;
+}
+button.btn.btn-primary.text-white {
+    background-color: #111171;
+}
+
+.icon i{
+    padding: 20px;
+    background-color: rgb(221, 228, 248);
+    font-size: 30px;
+    color: #111171;
+    margin:10px 15px;
+    border-radius: 50%;
+}
+button#btn5 {
+    width: 12vw;
+    height: 48px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-left: 10vw;
+}
+button#btn5 a{
+    text-decoration: none;
+    color: white;
+
+}
+#btn5 a:hover{
+    color:rgb(165, 204, 241);
+    text-shadow: 2px 1px 5px blue;
+  }
+  
+.col-sm-4.col-md-4.col-lg-4.col-12 a {
+    color: #111171;
+    text-decoration: none;
+    font-size: 12px;
+} 
+.col-sm-4.col-md-4.col-lg-4.col-12 a:hover {
+    color: #5959f0;
+}
+/* end of footer  */
+#dental p{
+    font-family: sans-serif;
+    line-height: 30px;
+}
+#services{
+    background-color:whitesmoke;
+
+}
+#services .card{
+    padding: 20px;
+}
